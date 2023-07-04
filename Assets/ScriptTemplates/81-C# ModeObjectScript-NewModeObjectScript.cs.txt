@@ -1,0 +1,30 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME# : ModeObject
+{
+    public override void Start()
+    {
+        base.Start();
+        #NOTRIM#
+    }
+    public override void StartMode()
+    {
+
+    }
+    public override void CloseMode()
+    {
+
+    }
+    private void Update()
+    {
+        if (IsModeActive())
+        {
+
+        }
+        #NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#
